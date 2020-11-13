@@ -32,6 +32,7 @@ Route::get('/post', function () {
  	});
 
 Route::get('/', 'HomeController@welcome');
+Route::get('/article/cetak_pdf', 'ArticleController@cetak_pdf');
 
 //Route::get'/manage', 'ArticleController@index'->name('manage');
 
